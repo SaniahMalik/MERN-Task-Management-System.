@@ -1,0 +1,18 @@
+/* STREAMING_CHUNK:Injecting Tailwind CSS v4 directives... */
+@import "tailwindcss";
+
+/* Smooth scaling and premium transit styles */
+@keyframes scaleUp {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-scale-up {
+  animation: scaleUp 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
